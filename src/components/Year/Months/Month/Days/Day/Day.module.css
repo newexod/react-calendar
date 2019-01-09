@@ -1,0 +1,39 @@
+.Day {
+  width: 35px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.Day:hover {
+  background: aqua;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.February:first-child,
+.November:first-child,
+.March:first-child {
+  margin-left: 105px;
+}
+
+.April:first-child,
+.July:first-child {
+  margin-left: 210px;
+}
+
+.May:first-child {
+  margin-left: 35px;
+}
+
+.June:first-child {
+  margin-left: 140px;
+}
+
+.August:first-child {
+  margin-left: 70px;
+}
+
+.September:first-child,
+.December:first-child {
+  margin-left: 175px;
+}
